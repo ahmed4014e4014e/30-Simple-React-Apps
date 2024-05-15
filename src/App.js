@@ -1,9 +1,9 @@
 /* eslint-disable no-unused-vars */
 
 import "./App.css";
-// import ImagePost from "./projects/30-lazy-loading/ImagePost"
+// import ImagePost from "./projects/30-lazy-loading/ImagePost";
 // import SynthesizerApp from "./projects/29-speech-synthesizer/SynthesizerApp";
-// import AuthApp from "./projects/28-auth-app/AuthApp"
+// import AuthApp from "./projects/28-auth-app/AuthApp";
 // import Store from './projects/27-course-store/Store'
 // import MortgageCalcApp from './projects/26-mortgage-calculator/MortgageCalcApp'
 // import ExpensesCalcApp from './projects/25-expenses-calculator/ExpensesCalcApp';
@@ -11,13 +11,13 @@ import "./App.css";
 // import AnimatedLoginForm from './projects/23-animated-login-form/AnimatedLoginForm';
 // import CardGameUI from './projects/22-card-game-ui/CardGameUI';
 // import TasksTrackerApp from './projects/21-tasks-tracker/TasksTrackerApp';
-// import SpacePenguinApp from './projects/20-space-penguin/SpacePenguinApp';
+// import SpacePenguinApp from "./projects/20-space-penguin/SpacePenguinApp";
 // import CompoundInterestRateApp from './projects/19-compound-interest-rate-calc/CompoundInterestRateApp';
 // import TextAnimationApp from './projects/18-text-animation/TextAnimationApp';
 // import ResponsiveNav from './projects/17-responsive-nav/ResponsiveNav';
 // import NotesApp from './projects/16-notes-app/NotesApp';
 // import RegForm from './projects/15-reg-form-validation/RegForm';
-import FilterContactsApp from "./projects/14-filter-contacts-app/FilterContactsApp";
+// import FilterContactsApp from "./projects/14-filter-contacts-app/FilterContactsApp";
 // import DialogBox from './projects/13-dialog-box/DialogBox';
 // import ProgressBarsContainer from './projects/12-progress-bars/ProgressBarsContainer';
 // import PopupApp from './projects/11-MagicPopup/PopupApp';
@@ -48,7 +48,7 @@ function App() {
       {/* <PopupApp /> */}
       {/* <ProgressBarsContainer /> */}
       {/* <DialogBox /> */}
-      <FilterContactsApp />
+      {/* <FilterContactsApp /> */}
       {/* <RegForm /> */}
       {/* <NotesApp /> */}
       {/* <ResponsiveNav /> */}

@@ -1,6 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable no-unused-vars */
-import React, {useState, useEffect} from 'react'
+import React, { useState, useEffect } from 'react'
 import "./ship.css"
 import Button from "../components/Button"
 // Objects 
@@ -20,19 +20,19 @@ export default function SpacePenguinApp() {
   });
 
   const startShip = () => {
-    setShipProps({ action: "fly", scale: 50});
+    setShipProps({ action: "fly", scale: 50 });
   };
 
   const landShip = () => {
-    setShipProps({ action: "land", scale: 200});
+    setShipProps({ action: "land", scale: 200 });
   };
 
   const [shipType, setShipType] = useState(Ship);
 
-  useEffect(()=>{
+  useEffect(() => {
     if (shipProps.action === "land") {
       setShipType(Penguin);
-      setTimeout(()=>{
+      setTimeout(() => {
         setShipType(Ship);
       }, 5500)
     }

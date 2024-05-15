@@ -32,7 +32,6 @@ body {
 .moon {
   width: 200px;
   animation: rotate 10s linear infinite;
-
 }
 @keyframes rotate {
   0% {
