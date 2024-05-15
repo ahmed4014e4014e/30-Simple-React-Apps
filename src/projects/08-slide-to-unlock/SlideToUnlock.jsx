@@ -32,9 +32,9 @@ export default function SlideToUnlock() {
         });
     };
 
-    useEffect(()=>{
+    useEffect(() => {
         document.body.style.background = "#999";
-        if(lockSliderValue === "100"){
+        if (lockSliderValue === "100") {
             setShowLockSlider(false);
             setLockSliderValue(0);
             setUiProps({
@@ -42,7 +42,7 @@ export default function SlideToUnlock() {
                 uiColor: "#222",
                 uiBg: `url(${HomeScreenImg}) center/cover no-repeat`,
             })
-        }   
+        }
     }, [lockSliderValue]);
 
     return (
